@@ -4,6 +4,7 @@ let imageContainer = document.querySelector('.image-container');
 let fullImage = document.querySelector('.full-image');
 let closeBtn = document.querySelector(".view-image span");
 let account = document.querySelector('.account');
+let container = document.querySelector('.container')
 let imgCount = 0;
 for(let image of images){
     image.addEventListener('click', function(e){
